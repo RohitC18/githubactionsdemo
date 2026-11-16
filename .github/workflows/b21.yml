@@ -4,8 +4,8 @@ on: push
 
 jobs:
   my_job:
-    runs-on: My GitHub Actions
+    runs-on: ubuntu-latest
 
     steps:
       - name: Print welcome message
-        run:  echo "welcome to my workflow 1"
+        run: echo "welcome to my workflow 1"
